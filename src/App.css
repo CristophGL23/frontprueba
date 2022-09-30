@@ -6,3 +6,30 @@
   text-decoration: none;
   font-size: 17px;
 }
+
+.size-icon-file{
+  font-size: 60px;
+}
+
+.divPadre{
+  height: 100vh;
+  position: relative;
+}
+
+.divHijo{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.sppinerReact{
+  width: 100px !important;
+  height: 100px !important;
+
+  border: 10px solid currentColor !important;
+  border-right-color: transparent !important;
+}
+
